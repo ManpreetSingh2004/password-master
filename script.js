@@ -1,4 +1,3 @@
-
 // Initialize Variables & Constants
 const pass_input = document.getElementById("input_password");
 const pass_strength = document.getElementById("pass_strength_progress");
