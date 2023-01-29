@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -44,10 +45,12 @@ body {
 
 main {
     max-width: 25rem;
+    width: 100%;
     margin: auto;
-    position: relative;
+    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    right: 50%;
+    transform: translate(50%, -50%);
 }
 
 section {
@@ -100,7 +103,6 @@ progress {
     accent-color: var(--primary-green);
 }
 
-/* input[type="number"] */
 input[type="password"]{
     background-color: var(--secondary-light);
     border: none;
@@ -111,11 +113,6 @@ input[type="password"]{
 .width_full {
     width: 100%;
 }
-
-/* input[type="number"] {
-    float: right;
-    clear: right;
-} */
 
 input:focus {
     outline: 2px solid var(--primary-blue);
